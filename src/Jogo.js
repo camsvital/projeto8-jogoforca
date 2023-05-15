@@ -1,3 +1,4 @@
+
 export default function Jogo({
   mistake,
   wordLetters,
@@ -19,7 +20,7 @@ export default function Jogo({
           Escolher Palavra
         </button>
 
-        <div className={`palavra ${colorState}`}>
+        <div className={`word ${colorState}`}>
           <span data-test="word" data-answer={word}>
             {wordLetters}
           </span>

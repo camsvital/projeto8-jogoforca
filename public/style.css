@@ -1,6 +1,13 @@
+body {
+  position: relative;
+  margin: auto;
+  width: 1025px;
+  height: 899px;
+}
+
 .top {
   display: flex;
-  margin: auto;
+  margin-top: 200px;
   justify-content: space-between;
   width: 100%;
 }
@@ -30,6 +37,7 @@ img {
   position: absolute;
   top: 50%;
 }
+
 .right {
   color: green;
 }
@@ -44,7 +52,7 @@ img {
   padding-top: 5%;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 68%;
+  width: 71%;
   height: 10%;
 }
 
