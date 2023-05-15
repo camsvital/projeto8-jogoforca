@@ -54,11 +54,8 @@ export default function letters(
     return (
         <div className="letters">
             {alphabet.map((letter) => (
-                <button data-test="letter"
-                    
-                className={`letter ${letterClick.includes(letter) ? "disabled" : lookState}`}
+                <button data-test="letter" className={`letter ${letterClick.includes(letter) ? "disabled" : lookState}`}
                     id={letter}
-                    
                     disabled={!letterClick.includes(letter) ? keyState : true}
                     onClick={() => letterState(letter)}
                     key={letter}

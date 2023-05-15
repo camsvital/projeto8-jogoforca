@@ -10,7 +10,7 @@ export default function Jogo({
     <div className="jogo">
       <div className="top">
         <div className="forca">
-          <img src={`./assets/forca${mistake}.png`} />
+          <img data-teste="game-imagem" src={`./assets/forca${mistake}.png`} />
         </div>
         <button
           data-test="choose-word"
